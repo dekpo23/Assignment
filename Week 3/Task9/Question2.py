@@ -2,7 +2,7 @@
 print('Welcome, I hope your day is going fine ')
 print('Dial *555# ')
 
-#Continue running codeuntil condition is met
+#Continue running code until condition is met
 while True:
     print('1. Check Balance\n2. Buy Airtime \n3. Buy Data \n4. Share Data/ Airtime \n5. Exit')
     balance_airtime = 1000
@@ -79,6 +79,7 @@ while True:
                 print('You do not have sufficient data to share.')
     elif choice == 5:
         break
+
 
            
             

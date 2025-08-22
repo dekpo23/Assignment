@@ -13,3 +13,5 @@ student['scores'] = [65, 70 ,85]
 #Check if student passed
 if sum(student['scores']) / len(student['scores']) >= 50:
     print('Passed')
+else:
+    print('Failed')
